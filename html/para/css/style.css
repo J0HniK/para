@@ -1,0 +1,45 @@
+
+.asd{
+    font-family:'Big Shoulders Text', cursive;
+}
+
+.fgh{
+    font-family: 'Shadows Into Light', cursive;
+}
+
+@font-face {
+    font-family: 'Big Shoulders Text';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Big Shoulders Text Regular'),
+     local('BigShouldersText-Regular'), 
+     url(../fonts/woff2) format('woff2');
+  }
+
+  @font-face {
+    font-family: "ArsenalItalic";
+    src: url("../fonts/ArsenalItalic/ArsenalItalic.eot");
+    src: url("../fonts/ArsenalItalic/ArsenalItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArsenalItalic/ArsenalItalic.woff") format("woff"),
+    url("../fonts/ArsenalItalic/ArsenalItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input:checked + .custom{
+    display: none;
+}
+
+
